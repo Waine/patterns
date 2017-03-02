@@ -1,0 +1,833 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Konovalov, Evgeniy</Author>
+  <LastAuthor>Konovalov, Evgeniy</LastAuthor>
+  <Created>2016-09-19T14:30:03Z</Created>
+  <LastSaved>2016-09-19T14:33:30Z</LastSaved>
+  <Company>luxoft</Company>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12585</WindowHeight>
+  <WindowWidth>27795</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>120</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="_20101108" ss:RefersTo="=Sheet1!R1C1:R8C68"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="68" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="63.75"/>
+   <Column ss:Width="31.5"/>
+   <Column ss:Width="37.5"/>
+   <Column ss:Width="21.75"/>
+   <Column ss:Width="83.25"/>
+   <Column ss:Width="76.5"/>
+   <Column ss:Width="52.5" ss:Span="1"/>
+   <Column ss:Index="9" ss:Width="54"/>
+   <Column ss:Width="64.5"/>
+   <Column ss:Width="77.25"/>
+   <Column ss:Width="63"/>
+   <Column ss:Width="82.5"/>
+   <Column ss:Width="80.25"/>
+   <Column ss:Width="79.5"/>
+   <Column ss:Width="108.75"/>
+   <Column ss:Width="47.25"/>
+   <Column ss:Width="77.25"/>
+   <Column ss:Width="103.5"/>
+   <Column ss:Width="117.75"/>
+   <Column ss:Width="81"/>
+   <Column ss:Width="41.25"/>
+   <Column ss:Width="66"/>
+   <Column ss:Index="25" ss:Width="54"/>
+   <Column ss:Width="97.5"/>
+   <Column ss:Width="46.5"/>
+   <Column ss:Width="41.25"/>
+   <Column ss:Width="54"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="119.25"/>
+   <Column ss:Width="91.5"/>
+   <Column ss:Width="83.25"/>
+   <Column ss:Width="30.75"/>
+   <Column ss:Width="36.75"/>
+   <Column ss:Width="45.75"/>
+   <Column ss:Width="66.75"/>
+   <Column ss:Width="80.25"/>
+   <Column ss:Width="100.5"/>
+   <Column ss:Width="61.5"/>
+   <Column ss:Width="114.75"/>
+   <Column ss:Width="113.25"/>
+   <Column ss:Width="135"/>
+   <Column ss:Width="132.75"/>
+   <Column ss:Width="64.5"/>
+   <Column ss:Width="51"/>
+   <Column ss:Width="36.75"/>
+   <Column ss:Width="42"/>
+   <Column ss:Width="87.75"/>
+   <Column ss:Width="117"/>
+   <Column ss:Width="114.75"/>
+   <Column ss:Width="53.25"/>
+   <Column ss:Width="98.25"/>
+   <Column ss:Width="114"/>
+   <Column ss:Width="104.25"/>
+   <Column ss:Width="141"/>
+   <Column ss:Width="67.5"/>
+   <Column ss:Width="69.75"/>
+   <Column ss:Width="69"/>
+   <Column ss:Width="108"/>
+   <Column ss:Width="89.25"/>
+   <Column ss:Width="76.5"/>
+   <Column ss:Width="71.25"/>
+   <Column ss:Width="77.25"/>
+   <Column ss:Width="84"/>
+   <Column ss:Width="129.75"/>
+   <Column ss:Width="149.25"/>
+   <Column ss:Width="50.25"/>
+   <Row>
+    <Cell><Data ss:Type="String">PACKAGE_ID</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FC_ID</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FCC_ID</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">LEG</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">PORTFOLIO</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">PACKAGE_TYPE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FC_TYPE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FCC_TYPE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">CURRENCY</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">TRADE_DATE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">EXERCISE_DATE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">START_DATE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">MATURITY_DATE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">PAYMENT_DATE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">COUNTERPARTY</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">COUNTERPARTYNAME</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">CCDB_ID</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">PRINCIPAL</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">CURRENT_PRINCIPAL</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FINAL_SWAP_PAYMENT</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FLOW_AMOUNT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">ENTITY</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">PAY_RECEIVE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">BUY_SELL</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FIX_FLOAT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FIXED_STRIKE_RATE</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">COUPON</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">SPREAD</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">NPV</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">CASH</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">PV01_LOCAL_CURRENCY</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">SETTLEMENT_TYPE</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">REF_INDEX</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">TERM</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">TENOR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">SOURCE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">TRADE_PRICE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">PAYMENT_FREQ</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">CALCULATION_FREQ</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">RESET_FREQ</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">PAYMENT_DAY_COUNT</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">PAYMENT_ROLL_CONV</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">CALCULATION_DAY_COUNT</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">CALCULATION_ROLL_CONV</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">UNDERLYING</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">DEALER</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">ISSUER</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">BROKER</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">BROKERAGE_FEES</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">BROKERAGE_CURRENCY</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">BROKERAGE_FEE_EURO</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">ACT_NOTL</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">ACCRUED_INTEREST</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">ACCRUED_INTEREST_SL</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">INTERNAL_EXTERNAL</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">REMARK</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FO_SOURCE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FO_TRANS_ID</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FO_TRADE_ID</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">LAST_PAYMENT_DATE</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">LAST_RESET_DATE</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">M_TP_STATUS2</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">ORIGIN_FC_ID</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">ORIGIN_FCC_ID</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">SWAPTION_TYPE</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">UNDERLYING_START_DATE</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">UNDERLYING_MATURITY_DATE</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">BPV</Data><NamedCell ss:Name="_20101108"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">3670</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">6117</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">IRD_V_AMS_EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">SWP_VAN</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">SWP_VAN</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2008-07-24T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="DateTime">2009-01-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2019-01-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="15"><Data ss:Type="String">BOERZWY</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">V O F BOERS</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">95875956</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1900000.000000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1828750.00</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">24665.01</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">LE_AMS</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">R</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">B</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FIXED</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">5.210000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">595450.62</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">0.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">100.00000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="34"><Data ss:Type="Number">92</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">3 M</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="37"><Data ss:Type="String">5.21000000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">3m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">3m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">3m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">95</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">MODIFIEDF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">LIN ACT/360</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">INDIFF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="46"><Data ss:Type="String">MUREXFO</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="49"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="51"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">NOT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">9263.130000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">9263.130000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">N</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Rein</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Murex Raider</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">10887475</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">11705654</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-10-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="62"><Data ss:Type="String">Opened trade</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">3670</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">6117</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="68"><Data ss:Type="String">1143.9185</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">3670</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">6117</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">IRD_V_AMS_EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">SWP_VAN</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">SWP_VAN</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2008-07-24T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="DateTime">2009-01-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2019-01-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="15"><Data ss:Type="String">BOERZWY</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">V O F BOERS</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">95875956</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1900000.000000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-1828750.00</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-5245.46</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">LE_AMS</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">P</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">B</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FLOAT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">0.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-350056.60</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">0.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">100.00000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">EUR EURIBOR 3M</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">92</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">3 M</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">EURIBOR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">5.21000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">3m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">3m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">3m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">95</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">MODIFIEDF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">LIN ACT/360</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">INDIFF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="46"><Data ss:Type="String">MUREXFO</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="49"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="51"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">NOT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-1333.460000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-1333.460000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">N</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Rein</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Murex Raider</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">10887475</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">11705654</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-10-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-09-29T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Opened trade</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">3670</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">6117</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="68"><Data ss:Type="String">1144.9185</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">3678</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">6125</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">IRD_V_AMS_EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">SWP_VAN</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">SWP_VAN</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-06-10T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="DateTime">2009-06-12T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2014-02-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="15"><Data ss:Type="String">HAKBLEL</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">J HAKBIJL B V</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">35569151</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">800000.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">800000.00</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">2170</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">LE_AMS</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">R</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">B</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FIXED</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">3.150000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">104867.91</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">0.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">100.00000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="34"><Data ss:Type="Number">30</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1 M</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="37"><Data ss:Type="String">3.15000000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">29</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">MODIFIEDF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">LIN ACT/360</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">INDIFF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="46"><Data ss:Type="String">MUREXFO</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="49"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="51"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">NOT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">280.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">280.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">N</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Rens</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Murex Raider</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">13590842</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">14353945</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-11-02T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="62"><Data ss:Type="String">Modified trade</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">3678</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">6125</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="68"><Data ss:Type="String">332.9195</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">3678</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">6125</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">IRD_V_AMS_EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">SWP_VAN</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">SWP_VAN</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-06-10T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="DateTime">2009-06-12T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2014-02-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="15"><Data ss:Type="String">HAKBLEL</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">J HAKBIJL B V</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">35569151</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">800000.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-800000.00</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-301.73</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">LE_AMS</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">P</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">B</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FLOAT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">0.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-75183.42</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">0.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">100.00000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">EUR EURIBOR 1M</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">30</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1 M</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">EURIBOR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">3.15000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">29</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">MODIFIEDF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">LIN ACT/360</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">INDIFF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="46"><Data ss:Type="String">MUREXFO</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="49"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="51"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">NOT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-37.870000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-37.870000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">N</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Rens</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Murex Raider</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">13590842</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">14353945</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-11-02T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-10-29T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Modified trade</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">3678</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">6125</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="68"><Data ss:Type="String">332.9195</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">13944</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">16148</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">IRD_V_AMS_EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">SWP_VAN</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">SWP_VAN</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2007-04-17T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="DateTime">2007-05-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2013-07-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="15"><Data ss:Type="String">OFSOARN</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">OFFICE SOLUTIONS BV</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">57075174</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">575000.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">359325.00</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1446.88</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">LE_AMS</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">R</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">B</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FIXED</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">4.530000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">31096.33</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">0.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">100.00000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="34"><Data ss:Type="Number">29</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1 M</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="37"><Data ss:Type="String">4.53000000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">29</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">MODIFIEDF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">LIN ACT/360</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">MODIFIEDF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="46"><Data ss:Type="String">MUREXFO</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="49"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="51"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">NOT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">135.650000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">135.650000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">N</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">P11089721:C13566501 sander</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Murex Raider</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">11089648</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">11899207</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-11-02T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="62"><Data ss:Type="String">Modified trade</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">13944</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">16148</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="68"><Data ss:Type="String">68.6465</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">13944</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">16148</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">IRD_V_AMS_EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">SWP_VAN</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">SWP_VAN</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2007-04-17T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="DateTime">2007-05-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2013-07-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="15"><Data ss:Type="String">OFSOARN</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">OFFICE SOLUTIONS BV</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">57075174</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">575000.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-359325.00</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-139.9</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">LE_AMS</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">P</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">B</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FLOAT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">0.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-11056.69</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">0.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">100.00000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">EUR EURIBOR 1M</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">29</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1 M</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">EURIBOR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">4.53000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">29</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">MODIFIEDF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">LIN ACT/360</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">MODIFIEDF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="46"><Data ss:Type="String">MUREXFO</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="49"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="51"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">NOT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-12.760000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">-12.760000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">N</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">P11089721:C13566501 sander</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Murex Raider</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">11089648</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">11899207</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-11-02T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-10-29T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Modified trade</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">13944</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">16148</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="68"><Data ss:Type="String">68.6465</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">3678</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">6125</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">IRD_V_AMS_EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">SWP_VAN</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">SWP_VAN</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">EUR</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-06-10T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="DateTime">2009-06-12T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2014-02-01T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="15"><Data ss:Type="String">HAKBLEL</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">J HAKBIJL B V</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">35569151</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">800000.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">800000.00</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">2170</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">LE_AMS</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">R</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">B</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">FIXED</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">3.150000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">104867.91</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">0.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">100.00000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="34"><Data ss:Type="Number">30</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1 M</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="37"><Data ss:Type="String">3.15000000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">1m</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">29</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">MODIFIEDF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">LIN ACT/360</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">INDIFF</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="46"><Data ss:Type="String">MUREXFO</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="49"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="51"><Data ss:Type="String">0.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">NOT</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">280.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">280.000000</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">N</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Rens</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="String">Murex Raider</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">13590842</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">14353945</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="DateTime">2009-11-02T00:00:00.000</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="62"><Data ss:Type="String">Modified trade</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">3678</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell><Data ss:Type="Number">6125</Data><NamedCell ss:Name="_20101108"/></Cell>
+    <Cell ss:Index="68"><Data ss:Type="String">332.9195</Data><NamedCell
+      ss:Name="_20101108"/></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <QueryTable xmlns="urn:schemas-microsoft-com:office:excel">
+   <Name>20101108</Name>
+   <AutoFormatFont/>
+   <AutoFormatPattern/>
+   <QuerySource>
+    <QueryType>Text</QueryType>
+    <TextWizardSettings>
+     <Name x:HRef="C:\Smart-R\20101108.csv"/>
+     <Source>866</Source>
+     <Decimal>,</Decimal>
+     <ThousandSeparator> </ThousandSeparator>
+     <TrailingMinusNumbers/>
+     <FormatSettings>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+      <FieldType>AutoFormat</FieldType>
+     </FormatSettings>
+     <Delimiters>
+      <Tab/>
+      <Comma/>
+     </Delimiters>
+    </TextWizardSettings>
+    <VersionLastEdit>4</VersionLastEdit>
+    <VersionLastRefresh>4</VersionLastRefresh>
+   </QuerySource>
+  </QueryTable>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

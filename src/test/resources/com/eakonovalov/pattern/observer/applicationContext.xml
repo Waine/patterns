@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:amq="http://activemq.apache.org/schema/core"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/context
+                            http://www.springframework.org/schema/context/spring-context.xsd
+                            http://activemq.apache.org/schema/core
+                            http://activemq.apache.org/schema/core/activemq-core.xsd">
+
+    <context:annotation-config/>
+    <context:component-scan base-package="com.eakonovalov.pattern.observer"/>
+
+    <amq:broker useJmx="false" persistent="false">
+        <amq:transportConnectors>
+            <amq:transportConnector uri="tcp://localhost:0"/>
+        </amq:transportConnectors>
+    </amq:broker>
+
+    <amq:connectionFactory id="jmsFactory" brokerURL="vm://localhost"/>
+
+    <bean id="messageDestination" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg value="messageQueue1"/>
+    </bean>
+
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="jmsFactory"/>
+    </bean>
+
+</beans>
