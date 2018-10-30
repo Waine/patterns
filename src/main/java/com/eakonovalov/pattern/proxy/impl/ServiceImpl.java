@@ -5,7 +5,7 @@ import com.eakonovalov.pattern.proxy.Service;
 /**
  * @author Waine
  * @version 1.0
- * @created 22-���-2017 20:40:09
+ * @created 22-Feb-2017 20:40:09
  */
 public class ServiceImpl implements Service {
 

@@ -3,7 +3,7 @@ package com.eakonovalov.pattern.chainofresponsibility;
 /**
  * @author Waine
  * @version 1.0
- * @created 08-���-2017 18:52:20
+ * @created 08-Feb-2017 18:52:20
  */
 public class Request {
 

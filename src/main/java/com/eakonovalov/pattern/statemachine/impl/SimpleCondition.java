@@ -5,7 +5,7 @@ import com.eakonovalov.pattern.statemachine.Condition;
 /**
  * @author Waine
  * @version 1.0
- * @created 01-���-2017 22:41:51
+ * @created 01-Feb-2017 22:41:51
  */
 public class SimpleCondition implements Condition {
 

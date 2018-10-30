@@ -4,7 +4,7 @@ package com.eakonovalov.pattern.composite;
 /**
  * @author Waine
  * @version 1.0
- * @created 09-���-2017 21:16:12
+ * @created 09-Feb-2017 21:16:12
  */
 public class Checkbox extends Component {
 

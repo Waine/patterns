@@ -5,7 +5,7 @@ import com.eakonovalov.pattern.statemachine.State;
 /**
  * @author Waine
  * @version 1.0
- * @created 01-���-2017 23:02:26
+ * @created 01-Feb-2017 23:02:26
  */
 public class SimpleState implements State {
 

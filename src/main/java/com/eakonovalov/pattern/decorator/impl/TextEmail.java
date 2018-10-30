@@ -5,7 +5,7 @@ import com.eakonovalov.pattern.decorator.Email;
 /**
  * @author Waine
  * @version 1.0
- * @created 10-���-2017 19:50:39
+ * @created 10-Feb-2017 19:50:39
  */
 public class TextEmail implements Email {
 

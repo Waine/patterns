@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @author Waine
  * @version 1.0
- * @created 06-���-2017 16:05:18
+ * @created 06-Feb-2017 16:05:18
  */
 public interface Table {
 

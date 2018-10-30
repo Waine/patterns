@@ -101,7 +101,7 @@ public class GrammarTest {
         this.testValid = testValid;
         this.testString = testString;
     }
-
+/*
     @Test
     public void testRule() {
         ANTLRInputStream input = new ANTLRInputStream(this.testString);
@@ -125,5 +125,5 @@ public class GrammarTest {
             }
         }
     }
-
+*/
 }

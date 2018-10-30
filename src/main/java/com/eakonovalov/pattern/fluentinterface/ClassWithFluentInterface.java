@@ -4,7 +4,7 @@ package com.eakonovalov.pattern.fluentinterface;
 /**
  * @author Waine
  * @version 1.0
- * @created 06-���-2017 15:02:44
+ * @created 06-Feb-2017 15:02:44
  */
 public class ClassWithFluentInterface {
 

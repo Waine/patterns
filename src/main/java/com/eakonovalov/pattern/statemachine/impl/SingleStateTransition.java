@@ -10,7 +10,7 @@ import java.util.HashSet;
 /**
  * @author Waine
  * @version 1.0
- * @created 01-���-2017 22:41:53
+ * @created 01-Feb-2017 22:41:53
  */
 public class SingleStateTransition extends AbstractStateTransition {
 

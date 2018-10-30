@@ -23,7 +23,7 @@ import java.util.Iterator;
 /**
  * @author Waine
  * @version 1.0
- * @created 11-���-2017 21:19:43
+ * @created 11-Feb-2017 21:19:43
  */
 @Component
 public class DatabaseConverter {

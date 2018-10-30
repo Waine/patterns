@@ -5,7 +5,7 @@ import com.eakonovalov.pattern.strategy.Strategy;
 /**
  * @author Waine
  * @version 1.0
- * @created 26-���-2017 20:06:51
+ * @created 26-Feb-2017 20:06:51
  */
 public class JavaStrategy implements Strategy {
 

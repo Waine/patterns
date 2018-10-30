@@ -6,7 +6,7 @@ import java.util.Collection;
 /**
  * @author Waine
  * @version 1.0
- * @created 01-���-2017 22:42:04
+ * @created 01-Feb-2017 22:42:04
  */
 public interface Transition {
 

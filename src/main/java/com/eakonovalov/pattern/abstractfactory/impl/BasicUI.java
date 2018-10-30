@@ -7,7 +7,7 @@ import com.eakonovalov.pattern.abstractfactory.UI;
 /**
  * @author Waine
  * @version 1.0
- * @created 02-���-2017 16:34:20
+ * @created 02-Feb-2017 16:34:20
  */
 public class BasicUI extends UI {
 

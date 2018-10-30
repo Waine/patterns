@@ -7,7 +7,7 @@ import com.eakonovalov.pattern.bridge.Vehicle;
 /**
  * @author Waine
  * @version 1.0
- * @created 05-���-2017 13:17:56
+ * @created 05-Feb-2017 13:17:56
  */
 public abstract class WheelVehicle implements Vehicle {
 

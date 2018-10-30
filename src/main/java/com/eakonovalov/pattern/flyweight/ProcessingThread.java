@@ -6,7 +6,7 @@ import java.io.InputStream;
 /**
  * @author Waine
  * @version 1.0
- * @created 14-���-2017 14:24:05
+ * @created 14-Feb-2017 14:24:05
  */
 public class ProcessingThread extends Thread {
 

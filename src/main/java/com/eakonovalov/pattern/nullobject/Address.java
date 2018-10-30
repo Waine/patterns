@@ -4,7 +4,7 @@ package com.eakonovalov.pattern.nullobject;
 /**
  * @author Waine
  * @version 1.0
- * @created 16-���-2017 22:46:58
+ * @created 16-Feb-2017 22:46:58
  */
 public class Address {
 

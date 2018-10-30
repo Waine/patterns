@@ -3,7 +3,7 @@ package com.eakonovalov.pattern.abstractfactory;
 /**
  * @author Waine
  * @version 1.0
- * @created 02-���-2017 16:35:07
+ * @created 02-Feb-2017 16:35:07
  */
 public abstract class Menu implements Component {
 

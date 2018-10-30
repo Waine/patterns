@@ -5,7 +5,7 @@ import com.eakonovalov.pattern.bridge.Gear;
 /**
  * @author Waine
  * @version 1.0
- * @created 05-���-2017 14:34:35
+ * @created 05-Feb-2017 14:34:35
  */
 public class ManualGear implements Gear {
 

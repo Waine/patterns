@@ -4,7 +4,7 @@ package com.eakonovalov.pattern.factorymethod;
 /**
  * @author Waine
  * @version 1.0
- * @created 13-���-2017 16:07:36
+ * @created 13-Feb-2017 16:07:36
  */
 public class DefaultLogger implements Logger {
 
