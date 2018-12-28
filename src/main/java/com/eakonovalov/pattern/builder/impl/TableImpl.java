@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @author Waine
  * @version 1.0
- * @created 06-���-2017 16:26:18
+ * @created 06-Feb-2017 16:26:18
  */
 public abstract class TableImpl implements Table {
 

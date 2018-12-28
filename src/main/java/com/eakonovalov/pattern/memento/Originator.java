@@ -3,7 +3,7 @@ package com.eakonovalov.pattern.memento;
 /**
  * @author Waine
  * @version 1.0
- * @created 20-���-2017 10:39:00
+ * @created 20-Feb-2017 10:39:00
  */
 public class Originator {
 
@@ -38,19 +38,19 @@ public class Originator {
     }
 
     public Memento save() {
-        return new MementoImpl(new StringBuilder(this.content));
+        return new MementoImpl(this.content.toString());
     }
 
     public void restore(Memento memento) {
         MementoImpl internal = (MementoImpl) memento;
-        this.content = internal.content;
+        this.content = new StringBuilder(internal.content);
     }
 
     private class MementoImpl implements Memento {
 
-        private StringBuilder content;
+        private String content;
 
-        public MementoImpl(StringBuilder content) {
+        public MementoImpl(String content) {
             this.content = content;
         }
     }

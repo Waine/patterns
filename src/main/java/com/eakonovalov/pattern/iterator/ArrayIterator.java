@@ -13,7 +13,7 @@ import java.util.NoSuchElementException;
  *
  * @author Waine
  * @version $Id: ArrayIterator.java 1494282 2013-06-18 20:09:1
- * @created 16-���-2017 22:00:38
+ * @created 16-Feb-2017 22:00:38
  * @since 1.0
  */
 public class ArrayIterator<E> implements Iterator<E> {

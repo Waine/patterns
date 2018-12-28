@@ -6,7 +6,7 @@ import com.eakonovalov.pattern.abstractfactory.impl.material.MaterialUI;
 /**
  * @author Waine
  * @version 1.0
- * @created 02-���-2017 16:10:38
+ * @created 02-Feb-2017 16:10:38
  */
 public abstract class UI {
 

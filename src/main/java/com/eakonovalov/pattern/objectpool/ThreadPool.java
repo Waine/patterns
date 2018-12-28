@@ -7,7 +7,7 @@ import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 /**
  * @author Waine
  * @version 1.0
- * @created 21-���-2017 22:09:22
+ * @created 21-Feb-2017 22:09:22
  */
 public class ThreadPool extends GenericObjectPool<ProcessingThread> {
 

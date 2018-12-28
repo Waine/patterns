@@ -5,7 +5,7 @@ import java.util.Collection;
 /**
  * @author Waine
  * @version 1.0
- * @created 01-���-2017 23:21:33
+ * @created 01-Feb-2017 23:21:33
  */
 public interface StateMachine {
 

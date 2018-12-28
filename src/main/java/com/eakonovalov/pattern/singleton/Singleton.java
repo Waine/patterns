@@ -3,7 +3,7 @@ package com.eakonovalov.pattern.singleton;
 /**
  * @author Waine
  * @version 1.0
- * @created 13-���-2017 15:57:19
+ * @created 13-Feb-2017 15:57:19
  */
 public class Singleton {
 

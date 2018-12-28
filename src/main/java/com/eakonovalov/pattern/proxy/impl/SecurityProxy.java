@@ -5,7 +5,7 @@ import com.eakonovalov.pattern.proxy.Service;
 /**
  * @author Waine
  * @version 1.0
- * @created 22-���-2017 20:40:29
+ * @created 22-Feb-2017 20:40:29
  */
 public class SecurityProxy implements Service {
 

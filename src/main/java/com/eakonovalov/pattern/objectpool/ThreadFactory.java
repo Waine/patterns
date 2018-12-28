@@ -7,7 +7,7 @@ import org.apache.commons.pool2.impl.DefaultPooledObject;
 /**
  * @author Waine
  * @version 1.0
- * @created 21-���-2017 22:09:19
+ * @created 21-Feb-2017 22:09:19
  */
 public class ThreadFactory extends BasePooledObjectFactory<ProcessingThread> {
 

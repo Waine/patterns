@@ -9,7 +9,7 @@ import org.xml.sax.helpers.DefaultHandler;
 /**
  * @author Waine
  * @version 1.0
- * @created 04-���-2017 0:56:05
+ * @created 04-Feb-2017 0:56:05
  */
 public class SSMLHandler extends DefaultHandler {
 
